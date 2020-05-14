@@ -1,0 +1,32 @@
+
+.jumbotron{
+    text-align:center;
+    height:550px;
+    padding-bottom:15px;
+}
+#generate{
+    margin:15px;
+}
+
+#result {
+    width:80%;
+    height:300px;
+    margin:15px auto;
+    /* text-align:left; */
+    border:1px solid 808080;
+}
+
+ul {
+    list-style: none;
+    color:#000000;
+    /* background-color:#ffccff; */
+}
+
+ul li {
+    margin:10px 0px;
+}
+
+ul li>:nth-child(odd){
+    background-color: #c0c0c0;
+    /* margin:5px 0px; */
+}

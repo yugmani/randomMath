@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generating Random Number</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+    <div class="jumbotron">
+        <h1>Generating A Random Number</h1>
+        <button id = "generate" type="button" class="btn btn-lg btn-primary">Click to Generate a random Number</button>
+        <div id="result">
+            <ul>
+                <li>
+                    <h3><code>Math.random()</code>=  </h3>
+                    <p>Just a random number between 0 and 1</p>
+                </li>
+                <li>
+                    <h3><code>Math.random()*5</code>=  </h3>
+                    <p>A random number between 0 and 4</p>
+
+                </li>
+                <li>
+                    <h3><code>Math.floor(random*5)</code>=  </h3>
+                    <p>An Integer between 0 and 4</p>
+                </li>
+                <li>
+                    <h3><code>Math.floor(random*5) + 1</code>=</h3>
+                    <p>A random number starts at 1 instead of 0</p></li>
+            </ul>
+
+        </div>
+    </div>
+    <script src="assets/script.js"></script>
+</body>
+</html>
